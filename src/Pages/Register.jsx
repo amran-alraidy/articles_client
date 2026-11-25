@@ -14,6 +14,7 @@ function Register() {
                 <input className="border border-blue-500 w-full p-2 rounded" type="email" placeholder="Enter your email.." value={email} onChange={(e)=>setEmail(e.target.value)}/>
                 <input className="border border-blue-500 w-full p-2 rounded" type="password" placeholder="Enter your password.." value={password} onChange={(e)=>setPassword(e.target.value)}/>
                 <button className="w-full bg-blue-700 text-white p-2 rounded">Register</button>
+                <p>Hi</p>
             </form>
         </div>
 
